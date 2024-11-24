@@ -773,7 +773,7 @@ input {
     background: none;
     position: relative;
   }
-  /* search */
+
   .search-button::before {
     content: "";
     display: block;
