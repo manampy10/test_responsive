@@ -73,6 +73,10 @@ header {
   margin-bottom: 60px;
 }
 
+.form_text {
+  display: flex;
+}
+
 nav {
   display: flex;
   gap: 50px;
@@ -656,6 +660,24 @@ input {
     margin: 0;
   }
 
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .form_text {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form_text input,
+  .form_text button {
+    margin: 5px auto;
+    font-size: 14px;
+  }
   .main-container {
     width: 100%;
     max-width: 1440px;
