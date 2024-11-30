@@ -656,21 +656,12 @@ input {
     gap: 10px;
   }
 
-  body {
-    margin: 0;
-  }
-
   body,
   html {
     margin: 0;
     padding: 0;
     width: 100vw;
     overflow-x: hidden;
-  }
-
-  .form_text {
-    width: 80%;
-    margin: 0 auto;
   }
 
   .form_text input,
