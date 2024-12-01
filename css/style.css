@@ -96,7 +96,7 @@ nav a:hover {
 nav a::before {
   content: "";
   position: absolute;
-  top: -8px;
+  top: -36px;
   left: 0;
   width: 0;
   height: 2px;
@@ -231,16 +231,6 @@ input {
   width: 14px;
   height: 22px;
   margin-right: 4px;
-}
-
-.filter-button.active {
-  background-color: #e6f0ff;
-  border-color: transparent;
-}
-
-.filter-button.active .icon {
-  filter: brightness(0) saturate(100%) invert(32%) sepia(100%) saturate(1433%)
-    hue-rotate(201deg) brightness(95%) contrast(101%);
 }
 
 .elipse {
@@ -403,7 +393,7 @@ input {
 .activity {
   margin: 0;
   font-size: 22px;
-  margin: 80px 0 0 30px;
+  margin: 80px 0 25px 30px;
 }
 
 .container_activities {
@@ -616,7 +606,7 @@ input {
     background-color: white;
     border-radius: 20px;
     padding: 0;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 298px;
     height: 250px;
@@ -897,7 +887,7 @@ input {
     background-color: white;
     border-radius: 20px;
     padding: 0;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     height: 200px;
     margin: 20px 30px;
   }
@@ -921,3 +911,8 @@ input {
   /*********************FIN FOOTER PHONE****************/
 }
 /********************************************************************************FIN phones******************************************************************/
+@media (min-width: 320px) and (max-width: 350px) {
+  .section_head {
+    margin: auto 20px auto 20px;
+  }
+}
