@@ -643,7 +643,11 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    margin: 30px 0 50px 30px;
+  }
+
+  header img {
+    margin-bottom: 20px;
   }
 
   body,
@@ -668,8 +672,8 @@ input {
 
   nav {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 60px;
     align-items: center;
   }
 
@@ -728,14 +732,13 @@ input {
   }
 
   .filter-button_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   .filter-button {
-    width: 30%;
+    width: 100px;
     max-width: 150px;
     min-width: 80px;
     height: 40px;
@@ -897,9 +900,8 @@ input {
   .footer-container {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 0 10px;
-    align-items: center;
+    margin: auto auto auto 20px;
+    align-items: flex-start;
   }
   .footer {
     background-color: #f2f2f2;
