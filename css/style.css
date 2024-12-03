@@ -216,11 +216,6 @@ input {
   border-color: transparent;
 }
 
-.filter-button-familial {
-  width: 131px;
-  height: 50px;
-}
-
 .filter-button .icon_one {
   width: 22px;
   height: 17px;
@@ -735,12 +730,11 @@ input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    width: 100%;
   }
 
   .filter-button {
-    width: 100px;
-    max-width: 150px;
-    min-width: 80px;
+    width: 80%;
     height: 40px;
     padding: 10px 20px;
     font-size: 14px;
@@ -913,8 +907,12 @@ input {
   /*********************FIN FOOTER PHONE****************/
 }
 /********************************************************************************FIN phones******************************************************************/
-@media (min-width: 320px) and (max-width: 350px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .section_head {
     margin: auto 20px auto 20px;
+  }
+
+  .filter-button {
+    width: 70%;
   }
 }
