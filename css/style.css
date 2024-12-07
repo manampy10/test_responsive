@@ -163,9 +163,9 @@ input {
   border-bottom-left-radius: 13px;
 }
 
-.vector {
-  width: 14px;
-  height: 18px;
+.icon-container i {
+  font-size: 24px;
+  color: #000;
 }
 
 .filter {
@@ -216,7 +216,7 @@ input {
   border-color: transparent;
 }
 
-.filter-button .icon_one {
+.filter-button i {
   width: 22px;
   height: 17px;
   margin-right: 6px;
@@ -499,10 +499,7 @@ input {
     border-radius: 20px;
   }
 
-  .filter-button .icon_one,
-  .filter-button .icon_two,
-  .filter-button .icon_three,
-  .filter-button .icon_four {
+  .filter-button i {
     width: auto;
     height: auto;
     margin-right: 6px;
@@ -753,11 +750,22 @@ input {
     width: 100%;
   }
 
-  .filter-button {
+  /* .filter-button {
     width: 70%;
+    gap: 0;
     height: 40px;
     padding: 10px 20px;
     font-size: 14px;
+  } */
+
+  .filter-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    width: 70%;
+    height: 25px;
+    font-size: 12px;
   }
 
   .filter {
@@ -784,28 +792,28 @@ input {
   }
 
   .search-button {
+    width: 50px;
+    height: 50px;
+    background-color: #0065fc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     font-size: 0;
     padding: 0;
     border-radius: 10px;
-    background: none;
     position: relative;
   }
   /* search */
   .search-button::before {
-    content: "";
-    display: block;
-    background-image: url("../images/button_recherche_mobile/Button.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    content: "\f002";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #feffff;
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .search-container button {
-    width: 100px;
-  }
   /*  MOBILE HEADER */
 
   .section_head {
