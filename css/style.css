@@ -751,7 +751,7 @@ input {
 
   nav a:hover::before {
     width: 100%;
-    transform: translateX(-5%);
+    transform: translateX(-0.5%);
   }
 
   #logo {
