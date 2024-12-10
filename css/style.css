@@ -43,6 +43,19 @@ a {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+.filter-button-familial .fa-person {
+  font-size: 20px;
+}
+.filter-button .fa-money-bill-wave {
+  font-size: 20px;
+}
+.filter-button .fa-heart {
+  font-size: 20px;
+}
+.filter-button .fa-fire {
+  font-size: 20px;
+}
+
 .card img {
   object-fit: cover;
 }
