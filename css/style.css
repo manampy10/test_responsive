@@ -256,6 +256,24 @@ input {
   margin-bottom: 30px;
 }
 
+.info-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-circle i {
+  color: #0065fc;
+  font-size: 10px;
+  font-weight: 700;
+}
+
 .elipse_img {
   width: 24px;
   height: 24px;
@@ -503,7 +521,6 @@ input {
     width: 100%;
     justify-content: flex-start;
   }
-
   .filter-button {
     width: 140px;
     height: 45px;
@@ -649,6 +666,14 @@ input {
     margin: auto 30px auto 30px;
   }
 
+  .info-circle {
+    width: 25px;
+  }
+
+  .info-circle i {
+    font-size: 12px;
+  }
+
   header {
     display: flex;
     flex-direction: column;
@@ -737,7 +762,7 @@ input {
 
   nav a:hover::before {
     width: 100%;
-    transform: translateX(-50%, 50%);
+    transform: translateX(-5%);
   }
 
   #logo {
