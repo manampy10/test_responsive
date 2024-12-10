@@ -284,7 +284,7 @@ input {
   object-fit: cover;
 }
 
-.Hébergements-title {
+.Hebergements-title {
   margin-bottom: 31px;
 }
 
@@ -641,7 +641,6 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 30px 0 50px 30px; */
   }
 
   header img {
@@ -656,10 +655,23 @@ input {
     overflow-x: hidden;
   }
 
-  .form_text input,
+  /* .form_text input,
   .form_text button {
     margin: 5px auto;
+  } */
+
+  .form_text input {
+    width: 90%;
   }
+
+  .form_text button {
+    width: 60px;
+  }
+
+  .form_text {
+    width: 100%;
+  }
+
   .main-container {
     width: 100%;
     max-width: 1440px;
@@ -670,20 +682,17 @@ input {
   nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    align-items: center;
-    position: relative;
+    gap: 0;
+
     width: 100%;
   }
-
   nav a {
     font-size: 16px;
     text-align: center;
+    width: 100%;
+    border-bottom: 3px solid #deebff;
+    padding-bottom: 10px;
     position: relative;
-  }
-
-  nav:first-of-type a {
-    margin: auto 50px auto 30px;
   }
 
   nav a:hover {
@@ -693,7 +702,7 @@ input {
   nav a::before {
     content: "";
     position: absolute;
-    top: 31px;
+    top: 29px;
     left: 0;
     width: 0;
     height: 3px;
@@ -714,8 +723,8 @@ input {
   }
 
   nav a:hover::before {
-    width: 250%;
-    transform: translateX(-50%);
+    width: 100%;
+    transform: translateX(-50%, 50%);
   }
 
   #logo {
@@ -750,14 +759,6 @@ input {
     width: 100%;
   }
 
-  /* .filter-button {
-    width: 70%;
-    gap: 0;
-    height: 40px;
-    padding: 10px 20px;
-    font-size: 14px;
-  } */
-
   .filter-button {
     display: flex;
     justify-content: flex-start;
@@ -775,9 +776,7 @@ input {
   }
 
   .search-container {
-    display: flex;
-    justify-content: flex-start;
-    margin: 25px auto 25px auto;
+    width: 100%;
   }
   .icon-container {
     display: flex;
