@@ -103,7 +103,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #0065fc;
+  color: #deebff;
 }
 
 nav a::before {
@@ -113,7 +113,7 @@ nav a::before {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #0065fc;
+  background-color: #deebff;
   transition: width 0.3s ease;
 }
 
@@ -728,13 +728,13 @@ input {
     font-size: 16px;
     text-align: center;
     width: 100%;
-    border-bottom: 3px solid #deebff;
+    border-bottom: 3px solid #d9d9d9;
     padding-bottom: 10px;
     position: relative;
   }
 
   nav a:hover {
-    color: var(--main-color);
+    color: #deebff;
   }
 
   nav a::before {
@@ -744,7 +744,7 @@ input {
     left: 0;
     width: 0;
     height: 3px;
-    background-color: var(--main-color);
+    background-color: #deebff;
     transition: width 0.3s ease;
     z-index: 2;
   }
